@@ -24,9 +24,9 @@ export class MainScene extends Phaser.Scene {
     
 
     
-    this.load.image('rocket', './src/boilerplate/assets/sprites/rocket-small.svg');
-    this.load.image('red', './src/boilerplate/assets/particles/red.png');
-    this.load.image('town','./src/boilerplate/assets/skies/cityscape2.svg');
+    this.load.image('rocket', './src/assets/sprites/rocket-small.svg');
+    this.load.image('red', './src/assets/particles/red.png');
+    this.load.image('town','./src/assets/skies/cityscape2.svg');
   }
 
   create(): void {
